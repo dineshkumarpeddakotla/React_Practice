@@ -1,5 +1,5 @@
 import "./App.css";
-import Expenses from "./components/Expenses";
+import Expenses from "./components/expenses/Expenses";
 
 function App() {
   const expenses = [
@@ -34,6 +34,7 @@ function App() {
       date: new Date(2012, 8, 18),
     },
   ];
+
   return (
     <div className="App">
       <Expenses expenses={expenses} />
